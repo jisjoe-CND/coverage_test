@@ -7,7 +7,7 @@ void main() {
   test(
     "Add function",
     () {
-      expect(Helper.add(2, 3), 5);
+      expect(Helper.add(4, 3), 7);
     },
   );
 
