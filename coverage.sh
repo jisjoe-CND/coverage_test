@@ -1,6 +1,6 @@
 #!/bin/bash
 ​
-filename=test.txt
+filename=./coverage/test.txt
 git --no-pager diff --name-only main...HEAD > $filename
 while read line;
 do
