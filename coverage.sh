@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash       
 ​
 filename=./coverage/test.txt
 git diff --name-only main...HEAD > $filename
