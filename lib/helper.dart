@@ -7,6 +7,7 @@ class Helper {
     return a - b;
   }
 
+
   static String capitalize(String str) {
     // Split the string into words
     List<String> words = str.split(' ');
